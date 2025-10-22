@@ -37,6 +37,9 @@
     text-align: center;
     
 }
+.gold{
+    color: rgba(255, 184, 5, 1);
+}
 /* header part  */
 body{
     background-color: rgba(245, 248, 255, 1);
