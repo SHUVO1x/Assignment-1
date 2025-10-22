@@ -4,7 +4,6 @@
 *{
     box-sizing: border-box;
     
-
 }
 .standard-width{
     max-width: 1140px;
@@ -39,6 +38,9 @@
     
 }
 /* header part  */
+body{
+    background-color: rgba(245, 248, 255, 1);
+}
 header{
     background-image: url(../Assets/Hero-bg.png);
     height: 700px;
@@ -115,4 +117,16 @@ nav{
 .p-c-2{
     color:  rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
+
+.focus-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+   
+}
+.f-s-1{
+    text-align: center;
+
 }
